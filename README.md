@@ -31,14 +31,14 @@ The dataset consists of the following columns:
 - **Model Training**:  Identified the best model parameters by using gridsearch and 10 cross validation folds. 
 ## Results✅
  ### Trends Observed:
-     - Less sales in the year 1998
-     - Food category was the most sold followed by drinks and non consumable items
-     - Snack foods, fruits and vegetables, canned foods were the top 3 most sold food items
-     - Item_MRP has a high correlation with Item_Outlet_Sales
-     - Tier 3 outlets had the highest sales
-     - Super Market Type 1 dominated among other outlet types
-     - Low Fat Foods were sold more
-     High Sales indicates higher number of transactions and not the total Item_outlet_sales value
+   - Less sales in the year 1998
+   - Food category was the most sold followed by drinks and non consumable items
+   - Snack foods, fruits and vegetables, canned foods were the top 3 most sold food items
+   - Item_MRP has a high correlation with Item_Outlet_Sales
+   - Tier 3 outlets had the highest sales
+   - Super Market Type 1 dominated among other outlet types
+   - Low Fat Foods were sold more
+High Sales indicates higher number of transactions and not the total Item_outlet_sales value
 - Achieved an MSE score of 0.271.
 - The best parameters are learning rate - 0.1, Tree maximum depth of 3 and a subsample rate of 0.5
 ## Conclusion
