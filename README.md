@@ -41,7 +41,5 @@ The dataset consists of the following columns:
 High Sales indicates higher number of transactions and not the total Item_outlet_sales value
 - Achieved an MSE score of 0.271.
 - The best parameters are learning rate - 0.1, Tree maximum depth of 3 and a subsample rate of 0.5
-## Conclusion
-This project demonstrates the application of XGBoost in predicting sales based on various product and store attributes.
 
 
