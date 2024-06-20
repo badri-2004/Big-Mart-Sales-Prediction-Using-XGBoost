@@ -25,6 +25,7 @@ The dataset consists of the following columns:
 - **Handling Missing Values**: Filled missing values in `Item_Weight` using the mean weight per item type. For `Outlet_Size`, filled missing values with mode.
 - **Handling Categorical Variables**: Converted categorical variables (`Item_Fat_Content`, `Item_Type`, `Outlet_Size`, `Outlet_Location_Type`, `Outlet_Type`) into numerical(one hot encoding) by using column transformer.
 - **Feature Engineering**: Created new features such as `Broader_item_type`(16 categories narrowed down to 3) and `Outlet_Years` to improve model performance.
+  
 -**Outlier removal** : Removed Rows with item_visibility = 0 as it is not at all possible to have 0 visibility.
 -**Distribution** : Transformed Item_visibility and Item_Outlet using log transform as there were right skewed. 
 ## Model Training with XGBoost🚀
